@@ -22,7 +22,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
       name="viewport"
     />
-
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <!--     Fonts and icons     -->
@@ -123,63 +123,51 @@
 
     <!-- page header -->
     <div
-      class="page-header page-header-xs"
+      class="page-header"
       data-parallax="true"
-      style="background-image: url('./assets/img/mountains.jpg');"
+      style="background-image: url('../assets/img/mountains.jpg');"
     >
       <div class="filter"></div>
-    </div>
-    <div class="section profile-content">
-      <div class="container">
-        <div class="owner">
-          <div class="avatar">
-            <img
-              src="./assets/img/rahul-arasikere.jpg"
-              alt="Rahul Arasikere"
-              class="img-circle img-no-padding img-responsive"
-            />
+      <div class="container col-md-4">
+        <div class="card card-profile">
+          <div class="card-avatar border-white">
+            <a href="#avatar">
+              <img src="./assets/img/rahul-arasikere.jpg" alt="..." />
+            </a>
           </div>
-          <div class="name">
-            <h4 class="title">
-              Rahul Arasikere
-              <br />
-            </h4>
-            <h6 class="description">
+          <div class="card-body">
+            <h4 class="card-title">Rahul Arasikere</h4>
+            <h6 class="card-category">
               College Student <a class="text-muted">/ Talented Coffee Maker</a>
             </h6>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 ml-auto mr-auto text-center">
-            <p>
-              I'm currently a computer science student studying at Boston
+            <p class="card-description">
+              Currently a computer science student studying at Boston
               University. In my free time you can find me reading a book,
-              working on a random project or learning something new.
+              working on a random project or learning something new, but always
+              with a cup of coffee in hand.
             </p>
-            <br />
-            <br />
-            <br />
-            <btn
-              class="btn btn-just-icon btn-link btn-github"
-              rel="tooltip"
-              title="Check out my Github"
-              ><i class="fab fa-github"></i
-            ></btn>
-            <btn
-              class="btn btn-just-icon btn-link btn-linkedin"
-              rel="tooltip"
-              title="Linkedin profile"
-              ><i class="fab fa-linkedin"></i>
-            </btn>
-            <btn
-              class="btn btn-just-icon btn-link"
-              rel="tooltip"
-              title="Send me a mail"
-              ><i class="fa fa-envelope"></i
-            ></btn>
+            <div class="card-footer text-center">
+              <btn
+                class="btn btn-just-icon btn-link btn-github"
+                rel="tooltip"
+                title="Check out my Github"
+                ><i class="fab fa-github"></i
+              ></btn>
+              <btn
+                class="btn btn-just-icon btn-link btn-linkedin"
+                rel="tooltip"
+                title="Linkedin profile"
+                ><i class="fab fa-linkedin"></i>
+              </btn>
+              <btn
+                class="btn btn-just-icon btn-link"
+                rel="tooltip"
+                title="Send me a mail"
+                ><i class="fa fa-envelope"></i
+              ></btn>
+            </div>
           </div>
         </div>
-        <br />
       </div>
     </div>
     <!-- end page header-->
@@ -401,7 +389,7 @@
 
     <!--  Plugins for Slider -->
     <script src="./assets/js/plugins/nouislider.min.js"></script>
-
+s
     <!--  Plugins for DateTimePicker -->
     <script src="./assets/js/plugins/moment.min.js"></script>
     <script src="./assets/js/plugins/bootstrap-datepicker.js"></script>
