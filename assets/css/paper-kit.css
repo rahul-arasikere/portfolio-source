@@ -8396,7 +8396,7 @@ License - nucleoapp.com/license/
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time {
   position: absolute;
-  left: -75px;
+  left: -100px;
   text-align: right;
   padding: 10px;
   -webkit-box-sizing: border-box;

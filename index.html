@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-163438419-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-163438419-1");
+    </script>
     <title>Rahul Arasikere</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -16,10 +30,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
 
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -31,7 +42,7 @@
   <body>
     <!--    navbar come here          -->
     <nav
-      class="navbar navbar-expand-lg fixed-top navbar-transparent"
+      class="navbar navbar-expand-lg fixed-top navbar-transparent bg-info"
       color-on-scroll="300"
     >
       <div class="container">
@@ -58,7 +69,7 @@
             <span class="navbar-toggler-bar bar1"></span>
             <span class="navbar-toggler-bar bar2"></span>
             <span class="navbar-toggler-bar bar3"></span>
-          </button> 
+          </button>
         </div>
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -74,7 +85,7 @@
                 href="https://github.com/rahul-arasikere"
                 target="_blank"
               >
-                <i class="fa fa-github-square"></i>
+                <i class="fab fa-github"></i>
                 <p class="d-lg-none">Github</p>
               </a>
             </li>
@@ -87,7 +98,7 @@
                 href="https://www.linkedin.com/in/rahul-arasikere"
                 target="_blank"
               >
-                <i class="fa fa-linkedin-square"></i>
+                <i class="fab fa-linkedin"></i>
                 <p class="d-lg-none">LinkedIn</p>
               </a>
             </li>
@@ -152,13 +163,13 @@
               class="btn btn-just-icon btn-link btn-github"
               rel="tooltip"
               title="Check out my Github"
-              ><i class="fa fa-github"></i
+              ><i class="fab fa-github"></i
             ></btn>
             <btn
               class="btn btn-just-icon btn-link btn-linkedin"
               rel="tooltip"
               title="Linkedin profile"
-              ><i class="fa fa-linkedin"></i>
+              ><i class="fab fa-linkedin"></i>
             </btn>
             <btn
               class="btn btn-just-icon btn-link"
@@ -181,6 +192,7 @@
             <div class="col-md-8 ml-auto mr-auto">
               <h2 class="title">Experience</h2>
               <h5 class="description">My previous job positions.</h5>
+              <hr />
               <br />
             </div>
           </div>
@@ -188,82 +200,140 @@
           <br />
           <div class="row">
             <div class="col-md-10 ml-auto mr-auto">
-            <div class="timeline-centered">
+              <div class="timeline-centered">
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner">
+                    <time class="timeline-time" datetime="2019-08-01"
+                      ><span>August</span> <span>2019</span></time
+                    >
 
-              <article class="timeline-entry left-aligned">
-                <div class="timeline-entry-inner">
-                  <time class="timeline-time" datetime="2018-08-01"
-                    ><span>August</span> <span>2018</span></time
-                  >
+                    <div class="timeline-icon bg-info">
+                      <i class="fa fa-flask"></i>
+                    </div>
 
-                  <div class="timeline-icon bg-primary">
-                    <i class="fa fa-flask"></i>
+                    <div class="timeline-label">
+                      <h2>
+                        Data Science Intern
+                        <span
+                          >at
+                          <a href="https://remidio.com/" target="_blank"
+                            >Remidio Innovative Solutions Pvt. Ltd.</a
+                          ></span
+                        >
+                      </h2>
+                      <p>
+                        Remidio's innovative telemedicine platform utilizes smart phone cameras' for retinal imaging, allowing doctors to remotely diagnose patients and at the same time providing patients with affordable eye care. I leveraged their large database of retinal images to build a classifier that automatically looks for the signs of age related macular degeneration with an 87% accuracy using artificial intelligence.
+                      </p>
+                    </div>
                   </div>
+                </article>
 
-                  <div class="timeline-label">
-                    <h2>Intern <span>at <a href="https://spectralinsights.com/" target="_blank">Spectral Insights</a></span></h2>
-                    <p>
-                      Developed the initial version of their website in WordPress.
-                    </p>
+                <article class="timeline-entry left-aligned">
+                  <div class="timeline-entry-inner">
+                    <time class="timeline-time" datetime="2018-08-01"
+                      ><span>August</span> <span>2018</span></time
+                    >
+
+                    <div class="timeline-icon bg-info">
+                      <i class="fas fa-microscope"></i>
+                    </div>
+
+                    <div class="timeline-label">
+                      <h2>
+                        Intern
+                        <span
+                          >at
+                          <a
+                            href="https://spectralinsights.com/"
+                            target="_blank"
+                            >Spectral Insights</a
+                          ></span
+                        >
+                      </h2>
+                      <p>
+                        Spectral Insights is developing India's first IoT
+                        powered microscope. I worked with a small team in
+                        developing an accurate machine learning algorithm that
+                        could to identify glomerulii in renal biopsies.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </article>
+                </article>
 
-              <article class="timeline-entry">
-                <div class="timeline-entry-inner">
-                  <time class="timeline-time" datetime="2018-06-10"
-                    ><span>June</span> <span>2018</span></time
-                  >
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner">
+                    <time class="timeline-time" datetime="2018-06-10"
+                      ><span>June</span> <span>2018</span></time
+                    >
 
-                  <div class="timeline-icon bg-primary">
-                    <i class="fa fa-code"></i>
+                    <div class="timeline-icon bg-info">
+                      <i class="fa fa-code"></i>
+                    </div>
+
+                    <div class="timeline-label">
+                      <h2>
+                        Web Developer
+                        <span
+                          >at
+                          <a href="https://manshatech.com/" target="_blank"
+                            >Mansha Vacuum Technologies Pvt. Ltd.</a
+                          ></span
+                        >
+                      </h2>
+                      <p>
+                        Revamped their corporate website to support modern web
+                        technologies with WordPress. Included search engine
+                        optimization and analytics powered by Google.
+                      </p>
+                    </div>
                   </div>
+                </article>
 
-                  <div class="timeline-label">
-                    <h2>
-                      Web Developer <span>at <a href="https://manshatech.com/" target="_blank">Mansha Vacuum Technologies Pvt. Ltd.</a></span>
-                    </h2>
-                    <p>
-                      Revamped their corporate website to support modern web technologies with WordPress. Included search engine optimization and analytics powered by Google.
-                    </p>
+                <article class="timeline-entry left-aligned">
+                  <div class="timeline-entry-inner">
+                    <time class="timeline-time" datetime="2016-10-10"
+                      ><span>October</span> <span>2016</span></time
+                    >
+
+                    <div class="timeline-icon bg-info">
+                      <i class="fa fa-code"></i>
+                    </div>
+
+                    <div class="timeline-label">
+                      <h2>
+                        Web Developer
+                        <span
+                          >at
+                          <a
+                            href="https://therejuvenators.co.in/"
+                            target="_blank"
+                            >The Rejuvenators</a
+                          ></span
+                        >
+                      </h2>
+                      <p>
+                        Developed the initial version of their website in
+                        WordPress.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </article>
+                </article>
 
-              <article class="timeline-entry left-aligned">
-                <div class="timeline-entry-inner">
-                  <time class="timeline-time" datetime="2016-10-10"
-                    ><span>October</span> <span>2016</span></time
-                  >
-
-                  <div class="timeline-icon bg-primary">
-                    <i class="fa fa-code"></i>
+                <article class="timeline-entry begin">
+                  <div class="timeline-entry-inner">
+                    <div
+                      class="timeline-icon bg-info"
+                      style="
+                        -webkit-transform: rotate(-90deg);
+                        -moz-transform: rotate(-90deg);
+                      "
+                    >
+                      <i class="fas fa-space-shuttle"></i>
+                    </div>
                   </div>
-
-                  <div class="timeline-label">
-                    <h2>Web Developer <span>at <a href="https://therejuvenators.co.in/" target="_blank">The Rejuvenators</a></span></h2>
-                    <p>
-                      Developed the initial version of their website in WordPress.
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="timeline-entry begin">
-                <div class="timeline-entry-inner">
-                  <div
-                    class="timeline-icon"
-                    style="
-                      -webkit-transform: rotate(-45deg);
-                      -moz-transform: rotate(-45deg);
-                    "
-                  >
-                    <i class="fa fa-rocket"></i>
-                  </div>
-                </div>
-              </article>
+                </article>
+              </div>
             </div>
-          </div>
           </div>
           <br />
           <br />
@@ -306,9 +376,18 @@
     </footer>
     <!-- end footer-->
     <!-- Core JS Files -->
-    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script
+      src="./assets/js/core/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
 
     <!-- Switches -->
     <script src="./assets/js/plugins/bootstrap-switch.js"></script>
@@ -322,6 +401,5 @@
 
     <!--  Paper Kit Initialization snd functons -->
     <script src="./assets/js/paper-kit.js"></script>
-    
   </body>
 </html>
