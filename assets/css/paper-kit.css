@@ -8326,7 +8326,7 @@ License - nucleoapp.com/license/
 }
 
 .demo-icons a {
-  color: #608CEE;
+  color: #608cee;
   text-decoration: none;
 }
 
@@ -8360,7 +8360,7 @@ License - nucleoapp.com/license/
 
 .demo-icons section h2 {
   border-bottom: 1px solid #e2e2e2;
-  padding: 0 0 1em .2em;
+  padding: 0 0 1em 0.2em;
   margin-bottom: 1em;
 }
 
@@ -8375,7 +8375,7 @@ License - nucleoapp.com/license/
   float: left;
   padding: 16px 0;
   text-align: center;
-  border-radius: .25em;
+  border-radius: 0.25em;
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
@@ -8415,7 +8415,7 @@ License - nucleoapp.com/license/
 
 .demo-icons ul p::selection,
 .demo-icons ul em::selection {
-  background: #608CEE;
+  background: #608cee;
   color: #efefef;
 }
 
@@ -8424,11 +8424,11 @@ License - nucleoapp.com/license/
 }
 
 .demo-icons ul em::before {
-  content: '[';
+  content: "[";
 }
 
 .demo-icons ul em::after {
-  content: ']';
+  content: "]";
 }
 
 .demo-icons ul input {
@@ -8472,7 +8472,7 @@ License - nucleoapp.com/license/
 }
 
 #notifications {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: block;
   width: 100%;
   position: relative;
@@ -8516,7 +8516,7 @@ License - nucleoapp.com/license/
 }
 
 .txt-white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .txt-gray {
@@ -8549,7 +8549,7 @@ License - nucleoapp.com/license/
 
 .logo-container .brand {
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 18px;
   float: left;
   margin-left: 10px;
@@ -8707,10 +8707,10 @@ License - nucleoapp.com/license/
 .presentation .front .btn,
 .logo-container .logo,
 .logo-container .brand {
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -o-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 #images h4 {
@@ -8749,7 +8749,7 @@ License - nucleoapp.com/license/
 }
 
 .navbar-transparent.navbar-small .logo-container .brand {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .navbar-default.navbar-small .logo-container .brand {
@@ -8774,7 +8774,7 @@ License - nucleoapp.com/license/
 }
 
 .section-tabs {
-  background: #EEEEEE;
+  background: #eeeeee;
 }
 
 .section-pagination {
@@ -8797,7 +8797,7 @@ License - nucleoapp.com/license/
   text-decoration: none;
 }
 
-.section-examples a+a {
+.section-examples a + a {
   margin-top: 30px;
 }
 
@@ -8805,8 +8805,8 @@ License - nucleoapp.com/license/
   margin-top: 30px;
 }
 
-.components-page .wrapper>.header,
-.tutorial-page .wrapper>.header {
+.components-page .wrapper > .header,
+.tutorial-page .wrapper > .header {
   height: 500px;
   padding-top: 128px;
   background-size: cover;
@@ -8815,7 +8815,7 @@ License - nucleoapp.com/license/
 
 .components-page .title,
 .tutorial-page .title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .brand .h1-seo {
@@ -9085,7 +9085,7 @@ License - nucleoapp.com/license/
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.bg-secondary {
-  background-color: #66615B;
+  background-color: #66615b;
   color: #fff;
 }
 
